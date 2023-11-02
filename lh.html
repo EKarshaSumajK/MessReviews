@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MessReviews - LH</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+  <nav class="bg-white border-gray-200 dark:bg-gray-900" style="background-color:#820000">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a style="text-align: center;width: 100%;">
+        <h1 style="color: white;;font-size: 50px;">Feedback / Complaints</h1>
+        <p class="mb-3 text-lg  " style="text-align:center ;color: white;">Ladies hostel</p>
+      </a>
+    </div>
+  </nav><br><br>
+
+<div class="" style="display: flex;justify-content: center;">
+  <form style="padding: 0px 30px;width: max-content;">
+    <div class="mb-6">
+      <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+      <input type="text" id="name"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        required>
+    </div>
+    <div class="mb-6">
+      <label for="rgisterno" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Register
+        Number</label>
+      <input type="text" id="rgisterno"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        required>
+    </div>
+
+    <fieldset class="bg-gray-50" style="border: 1px solid black;border-radius: 20px;padding: 20px 20px;width: 300px;">
+      <legend class="sr-only">Hostel</legend>
+
+      <div class="flex items-center mb-4">
+        <input id="country-option-1" type="radio" name="countries" value="USA"
+          class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600"
+          checked>
+        <label for="country-option-1" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+          LH-1
+        </label>
+      </div>
+
+      <div class="flex items-center mb-4">
+        <input id="country-option-2" type="radio" name="countries" value="Germany"
+          class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600">
+        <label for="country-option-2" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+          LH-2
+        </label>
+      </div>
+
+      
+
+
+    </fieldset>
+<br>
+    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Feedback /
+      Complaint</label>
+    <textarea id="message" rows="4"
+      class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+      placeholder="Write your thoughts here..."></textarea>
+    <div class="mb-6">
+      <label for="number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ratings out of 5</label>
+      <input type="number" id="number"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        placeholder="name@flowbite.com" required>
+    </div>
+    <div class="mb-6">
+      <label for="number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Quantity</label>
+      <fieldset class="bg-gray-50"  style="border: 1px solid black;border-radius: 20px;padding: 40px 20px;width: 300px;">
+        <legend class="sr-only">Hostel</legend>
+
+        <div class="flex items-center mb-4">
+          <input id="country-option-1" type="radio" name="countries" value="USA"
+            class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600"
+            checked>
+          <label for="country-option-1" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+            Over Quantity
+          </label>
+        </div>
+
+        <div class="flex items-center mb-4">
+          <input id="country-option-2" type="radio" name="countries" value="Germany"
+            class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600">
+          <label for="country-option-2" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+            Sufficient Quantity
+          </label>
+        </div>
+
+        <div class="flex items-center mb-4">
+          <input id="country-option-3" type="radio" name="countries" value="Spain"
+            class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:bg-gray-700 dark:border-gray-600">
+          <label for="country-option-3" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+            Poor Quantity
+          </label>
+        </div>
+      </fieldset>
+    </div><br>
+    <div class="mb-6">
+      <label for="number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Quanlity</label>
+      <fieldset class="bg-gray-50"  style="border: 1px solid black;border-radius: 20px;padding: 40px 20px;width: 300px;">
+        <legend class="sr-only">Hostel</legend>
+
+        <div class="flex items-center mb-4">
+          <input id="country-option-1" type="radio" name="countries" value="USA"
+            class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600"
+            checked>
+          <label for="country-option-1" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+            Good Quality
+          </label>
+        </div>
+
+        <div class="flex items-center mb-4">
+          <input id="country-option-3" type="radio" name="countries" value="Spain"
+            class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:bg-gray-700 dark:border-gray-600">
+          <label for="country-option-3" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+            Poor Quanlity
+          </label>
+        </div>
+      </fieldset>
+    </div>
+    <div class="mb-6">
+      <label for="number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Proof for your
+        incovinence</label>
+
+      <div class="flex items-center justify-center w-full">
+        <label for="dropzone-file"
+          class="flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
+          <div class="flex flex-col items-center justify-center pt-5 pb-6">
+            <svg class="w-8 h-8 mb-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2" />
+            </svg>
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to upload</span>
+              or drag and drop</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
+          </div>
+          <input id="dropzone-file" type="file" class="hidden" />
+        </label>
+      </div>
+
+    </div>
+    <div class="mb-6">
+      <label for="number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Are food provided present
+        in the menu ?</label>
+      <fieldset class="bg-gray-50"  style="border: 1px solid black;border-radius: 20px;padding: 40px 20px;width: 300px;">
+
+        <div class="flex items-center mb-4">
+          <input id="country-option-1" type="radio" name="countries" value="USA"
+            class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600"
+            checked>
+          <label for="country-option-1" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+            Yes
+          </label>
+        </div>
+
+        <div class="flex items-center mb-4">
+          <input id="country-option-3" type="radio" name="countries" value="Spain"
+            class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:bg-gray-700 dark:border-gray-600">
+          <label for="country-option-3" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+            No
+          </label>
+        </div>
+      </fieldset>
+    </div>
+
+
+    <div class="bg-gray-50"  style="border: 1px solid black;border-radius: 20px;padding: 40px 20px;width: 400px;">
+      <div class="flex items-center mb-4">
+        <input id="default-checkbox" type="checkbox" value=""
+          class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+        <label for="default-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">By clicking this
+          you are accepting all policies and terms of services</label>
+      </div>
+      <div class="flex items-center">
+        <input checked id="checked-checkbox" type="checkbox" value=""
+          class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+        <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">By clicking this
+          you are complaint / feedback form is actually legit complaint</label>
+      </div>
+    </div><br><br>
+    <div class="bg-gray-50"  style="display: flex;justify-content: space-between;width: 100%;;background-color: black;padding: 10px;">
+      <button type="submit" 
+      class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style="background-color: white;color: black;max-width: 100px;">Cancel</button>
+      <button type="submit"
+      class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style="background-color: #820000;color: white;max-width: 100px;">Submit</button>
+
+    </div>
+      </form></div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+
+</body>
+
+</html>
